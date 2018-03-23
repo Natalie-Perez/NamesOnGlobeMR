@@ -6,7 +6,7 @@ public class PointCreator : MonoBehaviour
 {
 
     public GameObject point;
-
+    
 
     // Use this for initialization
     void Start()
@@ -20,6 +20,7 @@ public class PointCreator : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Instantiate(point, transform.position, transform.rotation);
+            
         }
     }
 }
